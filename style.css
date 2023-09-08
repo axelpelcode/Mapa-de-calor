@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+}
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#title, #subtitle, #description{
+    margin:0;
+    padding:0;
+}
+#svg{
+    background-color: rgb(245, 245, 245);
+}
+.cell:hover{
+    opacity: 0.3;
+}
+#tooltip{
+    background-color: black;
+    color: white;
+}
+#legend{
+    margin:0;
+    padding:0;
+}
+#cellLeg:hover{
+    cursor: help;
+}
